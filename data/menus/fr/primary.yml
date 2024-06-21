@@ -9,4 +9,8 @@ items:
   target: "/agenda/archives/"
   kind: page
   children: []
+- title: Signataires
+  target: "/signataires/"
+  kind: page
+  children: []
 
