@@ -1,0 +1,38 @@
+header#document-header.is-sticky, 
+html.has-menu-opened header#document-header
+    background: rgba(255, 255, 255, 0.9)
+    backdrop-filter: blur(6px)
+
+.block
+    &-chapter
+        &--accent_background
+            background: $color-background
+            .block-content
+                color: $color-text
+                @include full-page
+                    @include lead-hero
+                    .chapter
+                        justify-content: center
+                        .text
+                            width: columns(8)
+                    
+@include media-breakpoint-up(desktop)
+    .note
+        line-height: 100%
+    .page__home
+        .hero--with-image
+            margin-bottom: 0
+            .content
+                flex-direction: column-reverse
+                padding-top: 0
+                figure
+                    width: 100%
+                .hero-text
+                    text-align: center
+                    width: 100%
+                    display: none
+
+footer#document-footer
+    .container
+        justify-content: center
+        text-align: center
