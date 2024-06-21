@@ -9,4 +9,8 @@ items:
   target: "/agenda/"
   kind: page
   children: []
+- title: Événements passés
+  target: "/agenda/archives/"
+  kind: page
+  children: []
 
