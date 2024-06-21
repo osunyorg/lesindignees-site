@@ -18,11 +18,12 @@ html.has-menu-opened header#document-header
                 padding-bottom: $spacing-4
                 @include media-breakpoint-up(desktop)
                     position: absolute
-                    left: pxToRem(-60)
-                    top: pxToRem(10)
-                    font-size: pxToRem(60)
+                    left: pxToRem(-40)
+                    top: pxToRem(5)
+                    font-size: pxToRem(40)
         &--accent_background
             background: $color-background
+            padding-top: 0 !important
             .block-content
                 color: $color-text
                 .chapter
@@ -35,7 +36,10 @@ html.has-menu-opened header#document-header
                     .chapter
                         justify-content: center
                         .text
-                            width: columns(8)
+                            @include media-breakpoint-up(md)
+                                width: columns(12)
+                            @include media-breakpoint-up(xxl)
+                                width: columns(8)
                     
 @include media-breakpoint-up(desktop)
     .note
