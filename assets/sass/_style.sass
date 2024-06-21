@@ -5,6 +5,22 @@ html.has-menu-opened header#document-header
 
 .block
     &-chapter
+        .notes
+            margin-top: $spacing-5
+            position: relative
+            &::before
+                color: $color-accent
+                content: '&'
+                display: block
+                font-size: pxToRem(50)
+                font-style: italic
+                margin-left: pxToRem(-4)
+                padding-bottom: $spacing-4
+                @include media-breakpoint-up(desktop)
+                    position: absolute
+                    left: pxToRem(-60)
+                    top: pxToRem(10)
+                    font-size: pxToRem(60)
         &--accent_background
             background: $color-background
             .block-content
