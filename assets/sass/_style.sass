@@ -5,6 +5,14 @@ html.has-menu-opened header#document-header
 
 .block
     &-chapter
+        @include full-page
+            .chapter
+                justify-content: center
+                .text
+                    @include media-breakpoint-up(md)
+                        width: columns(12)
+                    @include media-breakpoint-up(xl)
+                        width: columns(8)
         .notes
             margin-top: $spacing-5
             position: relative
@@ -31,15 +39,11 @@ html.has-menu-opened header#document-header
                 a
                     color: $color-text
                     text-decoration-color: $color-border
-                @include full-page
-                    @include lead-hero
-                    .chapter
-                        justify-content: center
-                        .text
-                            @include media-breakpoint-up(md)
-                                width: columns(12)
-                            @include media-breakpoint-up(xxl)
-                                width: columns(8)
+            @include full-page
+                .chapter
+                    .text
+                        font-size: pxToRem(26)
+                        line-height: 160%
                     
 @include media-breakpoint-up(desktop)
     .note
