@@ -45,7 +45,27 @@ html.has-menu-opened header#document-header
                     .text
                         font-size: pxToRem(26)
                         line-height: 160%
-                    
+    &-video
+        @include full-page
+            background: $color-text
+            .block-content
+                display: block
+                p
+                    @include meta
+                    color: $color-background
+                    margin-top: $spacing-4
+                    text-align: center
+                @include media-breakpoint-up(md)
+                    width: columns(12)
+                @include media-breakpoint-up(xl)
+                    padding-top: $spacing-5
+                    padding-left: offset(2)
+                    width: columns(8)
+                    .video
+                        width: columns(8)
+                    p
+                        width: columns(8)
+
 @include media-breakpoint-up(desktop)
     .note
         line-height: 100%
