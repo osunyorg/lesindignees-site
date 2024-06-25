@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Signataires
-  target: "/signataires/"
+  target: "/membres-fondateurs/"
   kind: page
   children: []
 
