@@ -9,7 +9,7 @@ items:
   target: "/agenda/archives/"
   kind: page
   children: []
-- title: Signataires
+- title: Membres fondateurs
   target: "/membres-fondateurs/"
   kind: page
   children: []
