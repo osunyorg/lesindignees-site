@@ -14,7 +14,6 @@ html.has-menu-opened header#document-header
                     @include media-breakpoint-up(xl)
                         width: columns(8)
         .notes
-            margin-top: $spacing-5
             position: relative
             &::before
                 color: $color-accent
@@ -32,6 +31,8 @@ html.has-menu-opened header#document-header
         &--accent_background
             background: $color-background
             padding-top: 0 !important
+            .notes
+                margin-top: $spacing-5
             .block-content
                 color: $color-text
                 .chapter
