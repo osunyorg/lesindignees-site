@@ -9,4 +9,8 @@ items:
   target: "/membres-fondateurs/"
   kind: page
   children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
 
