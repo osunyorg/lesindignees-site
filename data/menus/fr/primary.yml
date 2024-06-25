@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Événements
+- title: Agenda
   target: "/agenda/"
   kind: page
   children: []
