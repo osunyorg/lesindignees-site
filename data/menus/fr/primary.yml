@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Manifeste
+  target: "/manifeste/"
+  kind: page
+  children: []
 - title: Membres fondateurs
   target: "/membres-fondateurs/"
   kind: page
@@ -11,10 +15,6 @@ items:
   children: []
 - title: Agenda
   target: "/agenda/"
-  kind: page
-  children: []
-- title: Manifeste
-  target: "/manifeste/"
   kind: page
   children: []
 
