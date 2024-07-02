@@ -11,3 +11,6 @@ params:
     position: after-hero
   logo:
     footer: '/assets/images/icon-white.svg'
+  posts:
+    index:
+      layout: grid
