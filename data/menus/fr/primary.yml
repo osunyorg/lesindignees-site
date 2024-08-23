@@ -5,7 +5,7 @@ items:
   target: "/manifeste/"
   kind: page
   children: []
-- title: Membres fondateurs
+- title: Membres
   target: "/membres/"
   kind: page
   children: []
