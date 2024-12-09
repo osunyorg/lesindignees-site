@@ -7,9 +7,14 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      email: >-
-        contact@lesindignees.org
+    contact_details:
+      emails:
+        email:
+          label: >-
+            contact@lesindignees.org
+          value: >-
+            mailto:contact@lesindignees.org
+
   permalinks:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
