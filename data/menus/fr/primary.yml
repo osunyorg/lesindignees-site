@@ -5,20 +5,24 @@ items:
   target: "/manifeste/"
   kind: page
   children: []
+  path: "/pages/manifeste"
   file: content/fr/pages/manifeste/_index.html
 - title: Membres
   target: "/membres/"
   kind: page
   children: []
+  path: "/pages/membres"
   file: content/fr/pages/membres/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
   children: []
+  path: "/events"
   file: content/fr/events/_index.html
 
