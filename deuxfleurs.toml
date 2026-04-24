@@ -13,32 +13,3 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
-
-[[redirects]]
-from = "/agenda/2024-03-22-lancement-du-mouvement-les-indignes/"
-to = "/agenda/2024/lancement-du-mouvement-les-indignes/"
-
-[[redirects]]
-from = "/signataires/"
-to = "/membres/"
-
-[[redirects]]
-from = "/membres-fondateurs/"
-to = "/membres/"
-
-[[redirects]]
-from = "/agenda/2024-06-27-causerie-citoyenne-et-paysanne/"
-to = "/agenda/2024/causerie-citoyenne-et-paysanne/"
-
-[[redirects]]
-from = "/agenda/2024-05-11-participation-aux-rencontres-sur-les-mega-bassines/"
-to = "/agenda/2024/megabassines-non-merci/"
-
-[[redirects]]
-from = "/agenda/2024-05-11-megabassines-non-merci/"
-to = "/agenda/2024/megabassines-non-merci/"
-
-[[redirects]]
-from = "/agenda/2024-04-20-rencontre-a-peyrilhac-en-haute-vienne/"
-to = "/agenda/2024/rencontre-a-peyrilhac-en-haute-vienne/"
-
