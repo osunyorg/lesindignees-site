@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/les-indignes-flyer-page-1jpg/"
+
+[[redirects]]
 from = "/agenda/2024-03-22-lancement-du-mouvement-les-indignes/index.html"
 to = "/agenda/2024/lancement-du-mouvement-les-indignes/"
 
